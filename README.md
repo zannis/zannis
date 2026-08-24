@@ -1,16 +1,20 @@
-## Hi there 👋
+### Hi, I'm Zannis
 
-<!--
-**zannis/zannis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Website zannis.xyz](https://img.shields.io/badge/Web-zannis.xyz-111?style=flat&logo=googlechrome&logoColor=white)](https://zannis.xyz) [![LinkedIn](https://img.shields.io/badge/LinkedIn-zannis--kalampoukis-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/zannis-kalampoukis/)
 
-Here are some ideas to get you started:
+Staff Engineer at [Polymarket](https://polymarket.com), building in-house blockchain indexing, data pipelines, and APIs from the ground up. Previously Principal/Staff at [Aave Labs](https://github.com/aave), where I worked on the [Lens Protocol](https://github.com/lens-protocol) backend from the early days and rearchitected its event-driven stack into a modular pub/sub system. Founder of [Synchronicity Labs](https://synchronicitylabs.io). Rust, distributed systems, on-chain infrastructure.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Building
+
+- **[shove](https://github.com/zannis/shove)** [![GitHub stars](https://img.shields.io/github/stars/zannis/shove?style=flat&color=gold)](https://github.com/zannis/shove) [![crates.io](https://img.shields.io/crates/v/shove.svg)](https://crates.io/crates/shove) - Type-safe async pub/sub for Rust. One API across RabbitMQ, AWS SNS+SQS, NATS JetStream, Kafka, Redis/Valkey Streams, and an in-process backend — with retries, DLQs, per-key ordering, autoscaling consumer groups, and pluggable codecs. Guides at [shove.rs](https://shove.rs).
+
+#### Contributing to
+
+- **[Paperclip](https://github.com/paperclipai/paperclip)** [![GitHub stars](https://img.shields.io/github/stars/paperclipai/paperclip?style=flat&color=gold)](https://github.com/paperclipai/paperclip) - Orphan-reaper PID liveness judged from `/proc` instead of `kill(pid, 0)`, platform-terminated runs no longer charged as agent faults, project execution-workspace policy surfacing, 204 for issues with no active run
+- **[Actual](https://github.com/actualbudget/actual)** [![GitHub stars](https://img.shields.io/github/stars/actualbudget/actual?style=flat&color=gold)](https://github.com/actualbudget/actual) - Bulk-edit date picker formatting regression, summary card formulas fitting narrow screens, `set amount` rule actions staying in sync when a schedule's amount changes, mobile split-amount focus and GoCardless error reporting
+- **[rindexer](https://github.com/joshstevens19/rindexer)** [![GitHub stars](https://img.shields.io/github/stars/joshstevens19/rindexer?style=flat&color=gold)](https://github.com/joshstevens19/rindexer) - Chain-reorg handling for native transfers and delayed streams, parallel historical backfill, memory leak from unbounded `JoinHandle` accumulation during live indexing, reserved-word quoting in reversal SQL, Kafka feature gating, CI pipeline refactor
+- **[rrelayer](https://github.com/joshstevens19/rrelayer)** [![GitHub stars](https://img.shields.io/github/stars/joshstevens19/rrelayer?style=flat&color=gold)](https://github.com/joshstevens19/rrelayer) - Multi-region AWS KMS keys, custom KMS endpoint URLs, `describe_key` alias resolution, webhook types exposed to the Rust and TypeScript SDKs, transaction lookup by hash and external ID, failing transactions on intrinsic-gas-too-low
+- **[polkadot-js/api](https://github.com/polkadot-js/api)** [![GitHub stars](https://img.shields.io/github/stars/polkadot-js/api?style=flat&color=gold)](https://github.com/polkadot-js/api) - Typegen support for vectors of slices, and for structs and vectors of structs that previously errored
+- **[Lens Protocol](https://github.com/lens-protocol/lens-v3)** [![GitHub stars](https://img.shields.io/github/stars/lens-protocol/lens-v3?style=flat&color=gold)](https://github.com/lens-protocol/lens-v3) - `SimpleCollectAction` and token-gated rules in Lens v3, non-empty-string schema reuse in [metadata](https://github.com/lens-protocol/metadata), and a long run of gated, collect-module, and revenue examples in [api-examples](https://github.com/lens-protocol/api-examples)
+- **[t3rn](https://github.com/t3rn/t3rn)** [![GitHub stars](https://img.shields.io/github/stars/t3rn/t3rn?style=flat&color=gold)](https://github.com/t3rn/t3rn) - Substrate-to-Substrate relayer, XDNS gateway registry and Kusama connection, dockerized circuit node, signed inbound/outbound circuit protocol, and the release CI pipelines
+- **[Yearn](https://github.com/yearn/yearn-sdk)** [![GitHub stars](https://img.shields.io/github/stars/yearn/yearn-sdk?style=flat&color=gold)](https://github.com/yearn/yearn-sdk) - SDK initialization from the on-chain `AddressProvider` contract, earnings timestamp units, and strategy risk-group filters in [yearn-watch](https://github.com/yearn/yearn-watch-legacy)
